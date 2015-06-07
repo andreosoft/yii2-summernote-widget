@@ -19,12 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yii\\jui\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "andreosoft\\summernote\\": ""
         }
     }
 }
