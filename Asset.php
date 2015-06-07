@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class Asset extends AssetBundle
 {
-    public $sourcePath = '@bower/summernote';
+    public $sourcePath = '@bower/summernote/dist';
 
     public $js = [
         'summernote.min.js',
@@ -14,6 +14,7 @@ class Asset extends AssetBundle
     
     public $css = [
         'summernote.css',
+        'summernote-bs3.css'
     ];
     
     public $depends = [
