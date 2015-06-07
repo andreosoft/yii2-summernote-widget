@@ -1,0 +1,30 @@
+{
+    "name": "andreosoft/yii2-summernote-widget",
+    "description": "The Summernote extension for the Yii framework",
+    "keywords": ["yii2", "Summernote"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Andrey Zagorets",
+            "email": "AndreyZagorets@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/summernote": "0.*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\jui\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
