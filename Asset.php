@@ -1,6 +1,6 @@
 <?php
 
-namespace common\widgets\summernote;
+namespace andreosoft\summernote;
 
 use yii\web\AssetBundle;
 
