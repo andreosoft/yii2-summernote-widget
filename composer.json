@@ -16,7 +16,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "summernote/summernote": "*@stable",
-        "bower-asset/codemirror": "*"
+        "bower/codemirror": "*"
     },
     "autoload": {
         "psr-4": {
