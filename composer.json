@@ -15,7 +15,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/summernote": "0.*@stable"
+        "summernote/summernote": "*@stable"
     },
     "autoload": {
         "psr-4": {
