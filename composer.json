@@ -15,7 +15,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "summernote/summernote": "*@stable",
+        "bower-asset/summernote": "*@stable",
         "bower-asset/codemirror": "*"
     },
     "autoload": {
