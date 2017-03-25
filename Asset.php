@@ -1,28 +1,20 @@
 <?php
-
 namespace andreosoft\summernote;
 
 use yii\web\AssetBundle;
 
-class AssetCodeMirrior extends AssetBundle
-{
-    public $sourcePath = '@bower/codemirror';
-    /**
-     * @inheritdoc
-     */
+class Asset extends AssetBundle {
+
+    public $sourcePath = '@bower/summernote/dist';
     public $js = [
-        'lib/codemirror.js',
-        'addon/edit/matchbrackets.js',
-        'mode/htmlmixed/htmlmixed.js',
-        'mode/xml/xml.js',
-        'addon/hint/show-hint.js',
-        'addon/hint/html-hint.js',
-        'addon/hint/xml-hint.js',
-        'addon/format/formatting.js',
-        
+        'summernote.min.js',
     ];
     public $css = [
-        'lib/codemirror.css',
-        'addon/hint/show-hint.css',
+        'summernote.css',
     ];
+    public $depends = [
+        'yii\web\JqueryAsset',
+        'yii\bootstrap\BootstrapAsset',
+    ];
+
 }
